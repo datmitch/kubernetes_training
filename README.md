@@ -13,7 +13,7 @@ If you're looking for the course handout, look at the [CourseHandout.md](CourseH
 ## Questions or Concerns
 Please file a bug or a feature with this repository, and I'll be happy to look at it!
 
-###Notes:
+### Notes:
 1. When running the minikube service on Mac with Docker, I had to run the following port-forward command to access the service via localhost as "http://localhost:7080/":
 	```
 	kubectl port-forward service/helloworld 7080:80
